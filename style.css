@@ -1,0 +1,38 @@
+
+.new {
+  background-color: #00d7d2;
+  border-radius: 5px;
+}
+
+/* .h-100 {
+  height: 100px;
+}
+
+.h-200 {
+  height: 200px;
+} */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+a img {
+  width: 180px;
+  height: 40px;
+}
+
+.nav2>li>a{
+  line-height: 40px;
+}
+
+ul li a {
+  color: #031b4e !important;
+}
+
+.sign_up {
+  color: #0069ff !important;
+  border: 1px solid #0069ff;
+  border-radius: 5px;
+}
