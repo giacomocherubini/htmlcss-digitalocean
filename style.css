@@ -41,8 +41,12 @@ ul li a {
   height: 800px;
 }
 
-.blue {
+.bg_blue {
   background-color: #0049ff;
+}
+
+.blue {
+ color: #0049ff;
 }
 
 .h-700 {
@@ -108,6 +112,14 @@ input {
   padding-bottom: 200px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
@@ -118,4 +130,20 @@ input {
 
 .bg_grey {
   background-color: #f3f5f9;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-60 {
+  font-size: 60px;
+}
+
+.darkblue {
+  color: #031b4e;
+}
+
+.bold {
+  font-size: bold;
 }
