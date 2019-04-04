@@ -5,10 +5,12 @@
 
 .container {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-  position: relative;
+section {
+  width: 100%;
 }
 
 nav.navbar-default {
@@ -146,4 +148,31 @@ input {
 
 .bold {
   font-size: bold;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+
+.screenshot {
+  width: 50%;
+}
+
+
+
+@media all and (max-width: 768px){
+
+.screenshot {
+  width: 100%;
+  }
+
+}
+
+@media all and (min-width: 992px max-width: 1200px){
+
+  .screenshot {
+    width: 50%;
+    }
+
 }
