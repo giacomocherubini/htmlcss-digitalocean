@@ -5,169 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <ul class="nav navbar-nav navbar-left nav1">
-                <li class=""><a class="new" href="#">New</a></li>
-                <li><a>General Purpose Droplets VMs now supporting a wider range of production workloads.</a></li>
-              </ul>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right nav1">
-              <li class=""><a href="#">Docs</a></li>
-              <li class=""><a href="#">Support</a></li>
-              <li class=""><a href="#">Sales</a></li>
-              <li class=""><a href="#">Login</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.containers-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="after-nav desaturated-darkblue hidden-xs hidden-sm transf-blue">
+            <span class="label label-new">New</span>
+            <a href="#">General Purpose Droplets VMs now supporting a wider range of production workloads.</a>
+            <div class="right-nav">
+              <ul class="desaturated-darkblue bold pl-10">
+                <li><a  href="#">Docs</a></li>
+                <li><a  href="#">Support</a></li>
+                <li><a  href="#">Sales</a></li>
+                <li><a  href="#">Log in</a></li>
+                </ul>
+            </div>
+        </div>
 
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <ul class="nav navbar-nav navbar-left nav2">
-            <li class=""><a href="#"><img src="digitalocean.png"alt=""></a></li>
-            <li class=""><a href="#">Products</a></li>
-            <li class=""><a href="#">Marketplace</a></li>
-            <li class=""><a href="#">Customers</a></li>
-            <li class=""><a href="#">Customers</a></li>
-            <li class=""><a href="#">Comunity</a></li>
-            <li class=""><a href="#">Pricing</a></li>
+      <div class="container-fluid pad-nav">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand bold blue" href="#">Digital Ocean</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav very-darkblue bold transf-blue">
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Pricing</a></li>
           </ul>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right nav2">
-              <li class=""><a class="sign_up" href="#">Sign Up</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.containers-->
-      </nav>
-    </header>
-
-    <section class="bg_blue">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="btn-blue" class="btn btn-primary" href="#">Sign up</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <section class="home">
       <div class="container">
-        <div class="row h-700 pt-200 pb-200">
-          <div class="col-sm-12 col-md-offset-2 col-md-4">
-             <h1 class="font62 white">Welcome to the developer cloud</h1>
-             <h2 class="white">We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand</h2>
+        <div class="row">
+          <div class="relative">
+            <div class="center">
+              <div class="col-xs-12 col-md-6">
+                <h1 class="font62 bold white">Welcome to the developer cloud</h1>
+                <p class="white font25">We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand</p>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-3">
-            <form class="text-center p-20" action="index.html" method="post">
-              <h1 class="mb-30">Deploy in seconds</h1>
-              <input type="email" name="" placeholder="Email address" value="">
-              <input type="password" name="" placeholder="Password" value="">
-              <button class="btn green_btn white" type="button" name="commit">Create your account</button>
-              <button class="btn white_btn border_grey" type="button" name="commit"><img class="google"src="google.png">Sign up with Google</button>
+          <div class="col-xs-12 col-md-4 col-md-offset-2 text-center">
+            <div class="form-card">
+              <h2>Deploy in second</h2>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email address">
+            </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Password">
+              </div>
+              <button type="button" class="btn btn-green btn-lg btn-block">Create your account</button>
+              <button type="button" class="btn btn-default btn-lg btn-block"><img class="google"src="google.png">Sign up with Google</button>
               <h5>By signing up you agree to the <a href="#">Terms of Service.</a></h5>
-            </form>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg_grey pt-100 pb-100">
+
+    <section class="bg_grey">
       <div class="container">
         <div class="row text-center">
-          <div class="col-sm-12 col-md-10 col-lg-offset-1 col-10">
-            <h1>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h1>
+          <div class="col-xs-12 col-md-12">
+              <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
           </div>
         </div>
         <div class="row text-center p-20">
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="docker.png" alt="">
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="gitlab.png" alt="">
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="slack.png" alt="">
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="hashicorp.png" alt="">
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="wework.png" alt="">
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-2">
+          <div class="col-xs-12 col-md-2 ">
             <img src="slack.png" alt="">
           </div>
         </div>
         <div class="row text-center p-20">
-            <a class="blue f-20" href="#">View customer stories</a>
-        </div>
-      </div>
-    </section>
-    <section class="pt-100 pb-100 darkblue">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-sm-12 col-md-12 col-lg-offset-2 col-lg-8">
-            <h1 class="f-60 p-20">Deploy and scale seamlessly</h1>
-            <h4 class="p-20">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</h4>
-          </div>
-          <div class="row p-20">
-            <div class="col-sm-12- col-md-12 col-lg-offset-5 col-lg-2">
-              <img src="goccia.png" alt="">
-              <h3>Cluster deployments</h3>
-              <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
-            </div>
-            <div class="col-sm-12- col-md-12 col-lg-2">
-              <img src="goccia.png" alt="">
-              <h3>Cluster deployments</h3>
-              <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
-            </div>
-          </div>
-            <div class="row p-20">
-              <div class="col-sm-12- col-md-12 col-lg-offset-5 col-lg-2">
-                <img src="goccia.png" alt="">
-                <h3>Cluster deployments</h3>
-                <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
-              </div>
-              <div class="col-sm-12- col-md-12 col-lg-2">
-                <img src="goccia.png" alt="">
-                <h3>Cluster deployments</h3>
-                <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
-              </div>
-            </div>
+            <a class="blue" href="#">View customer stories</a>
         </div>
       </div>
     </section>
 
-    <section class="bg_grey pt-100 pb-100 darkblue text-center">
+    <section class="very-darkblue">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-            <h1>Designed for developers</h1>
-            <h4 class="pb-50">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h4>
+        <dv class="row text-center">
+          <div class="col-xs-12  col-md-12">
+            <h1 class="">Deploy and scale seamlessly</h1>
+            <h4 class=>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</h4>
           </div>
-            <img class="screenshot" src="screenshot.jpg" alt="">
+          <div class="row">
+            <div class="col-xs-12 col-md-offset-2 col-md-4">
+              <img src="goccia.png" alt="">
+              <h3>Cluster deployments</h3>
+              <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
+            </div>
+              <div class="col-xs-12 col-md-4">
+                <img src="goccia.png" alt="">
+                <h3>Cluster deployments</h3>
+                <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-md-offset-2 col-md-4">
+                  <img src="goccia.png" alt="">
+                  <h3>Cluster deployments</h3>
+                  <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <img src="goccia.png" alt="">
+                  <h3>Cluster deployments</h3>
+                  <h5>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</h5>
+                </div>
+              </div>
         </div>
-      </div>
     </section>
 
-    <section class="darkblue pt-100 pb-100">
+    <section class="bg_grey very-darkblue text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-offset-2 col-md-8 ">
+                <h1>Designed for developers</h1>
+                <h4 >Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h4>
+              </div>
+                <img class="screenshot mt-30" src="screenshot.jpg" alt="">
+            </div>
+          </div>
+    </section>
+
+    <section class="very-darkblue">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-            <h1 class="text-center pb-50">The features your business needs</h1>
+          <div class="col-xs-12 col-md-offset-2 col-md-8 ">
+            <h1 class="text-center mt-40">The features your business needs</h1>
           </div>
-          <div class="col-sm-12 col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
+          <div class="col-xs-12 col-md-4 mt-40">
             <img src="goccia.png" alt="">
             <h3>Predictable pricing</h3>
             <h5>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structur</h5>
             <a class="blue" href="#">Pricing</a>
           </div>
-          <div class="col-sm-12 col-md-2 col-lg-2">
+          <div class="col-xs-12 col-md-4 mt-40">
             <img src="goccia.png" alt="">
             <h3>World-class service</h3>
             <h5>Free round-the-clock technical support for all customers. You’ll feel the love.</h5>
             <a class="blue" href="#">Support</a>
           </div>
-          <div class="col-sm-12 col-md-2 col-lg-2">
+          <div class="col-xs-12 col-md-4 mt-40">
             <img src="goccia.png" alt="">
             <h3>Reliable platform</h3>
             <h5>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</h5>
@@ -177,169 +187,157 @@
       </div>
     </section>
 
-    <section class="bg_blue-2 pt-50 pb-100">
+    <section class="bg_world">
       <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="mb-40">Service your customers around the world from 12 regions.</h1>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-            <h1 class="text-center pb-100 white">Service your customers around the world from 12 regions.</h1>
+          <div class="col-xs-12 col-md-6">
+            <table class="table">
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+            </table>
           </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-            <div class="col-sm-2 col-md-2 col-lg-2">
-              <h4 class="white">AMS2</h4>
-            </div>
-            <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-              <h4 class="">Amsterdam, Netherlands</h4>
-            </div>
-            <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-              <a class="acqua" href="#">Test speed</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5 grey_line">
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <h4 class="white">AMS2</h4>
-          </div>
-          <div class="col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-4 col-lg-offset-1 col-lg-4">
-            <h4 class="">Amsterdam, Netherlands</h4>
-          </div>
-          <div class="col-sm-offset-3 col-sm-2-col-md-offset-3 col-md-2 col-lg-offset-3 col-lg-2">
-            <a class="acqua" href="#">Test speed</a>
+          <div class="col-xs-12 col-md-6">
+            <table class="table">
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td class="white">AMS2</td>
+                <td class="grey2">Amsterdam, Netherlands</td>
+                <td class="text-right"><a class="acqua" href="#">Test speed</a></td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg_grey pt-100 pb-100 darkblue text-center">
+    <section class="bg_grey very-darkblue text-center">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
-            <h1>Development teams love DigitalOcean</h1>
+          <div class="col-xs-12 col-md-offset-2 col-md-8">
+            <h1 class="bold mb-40">Development teams love DigitalOcean</h1>
           </div>
-            <img class="rockerbox pt-50" src="rockerbox.jpg" alt="">
+            <img class="rockerbox" src="rockerbox.jpg" alt="">
         </div>
       </div>
     </section>
-    <section class="bg_blue text-center p-50">
+    <section class="bg-2 text-center ">
       <div class="container">
-        <div class="col-sm-12 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
-          <h1 class="white p-20">Get started now.</h1>
+        <div class="col-xs-12 col-md-offset-3 col-md-6">
+          <h1 class="white mb-40 bold">Get started now.</h1>
           <button class="btn white_btn blue" type="button" name="commit">Create your account</button>
         </div>
       </div>
-
     </section>
-
+    <footer class="bg_very-darkblue">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-3">
+              <img src="digitalocean.png" alt="">
+              <h5 class="white mb-40">© 2019 DigitalOcean, LLC. All rights reserved. Proudly made in NY</h5>
+              <ul class="list-inline social">
+                <li><i class="fab fa-twitter fa-2x grey2"></i></li>
+                <li><i class="fab fa-facebook-f fa-2x grey2"></i></li>
+                <li><i class="fab fa-instagram fa-2x grey2"></i></li>
+                <li><i class="fab fa-youtube fa-2x grey2"></i></li>
+                <li><i class="fab fa-linkedin fa-2x grey2"></i></li>
+              </ul>
+          </div>
+          <div class="col-xs 12 col-md-8 col-offset-md-1">
+            <div class="row list-link">
+              <div class="col-xs-12 col-md-3">
+                <h5 class="white">Company</h5>
+                <a class="grey2" href="#">About</a>
+                <a class="grey2" href="#">About</a>
+                <a class="grey2" href="#">About</a>
+                <a class="grey2" href="#">About</a>
+                <a class="grey2" href="#">About</a>
+                <a class="grey2" href="#">About</a>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <h5 class="white">Products</h5>
+                <a class="grey2" href="#">Products Overview</a>
+                <a class="grey2" href="#">Products Overview</a>
+                <a class="grey2" href="#">Products Overview</a>
+                <a class="grey2" href="#">Products Overview</a>
+                <a class="grey2" href="#">Products Overview</a>
+                <a class="grey2" href="#">Products Overview</a>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <h5 class="white">Community</h5>
+                <a class="grey2" href="#">Tutorials</a>
+                <a class="grey2" href="#">Tutorials</a>
+                <a class="grey2" href="#">Tutorials</a>
+                <a class="grey2" href="#">Tutorials</a>
+                <a class="grey2" href="#">Tutorials</a>
+                <a class="grey2" href="#">Tutorials</a>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <h5 class="white">Contact</h5>
+                <a class="grey2" href="#">Support</a>
+                <a class="grey2" href="#">Support</a>
+                <a class="grey2" href="#">Support</a>
+                <a class="grey2" href="#">Support</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

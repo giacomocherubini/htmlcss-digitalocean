@@ -1,196 +1,227 @@
-.new {
-  background-color: #00d7d2;
-  border-radius: 5px;
-}
-
-.container {
-  width: 100%;
-}
-
-section {
-  width: 100%;
-}
-
-nav.navbar-default {
-  width: 100%;
+.navbar {
+  height: 115px;
   margin-bottom: 0;
-  position: fixed;
-  z-index: 1;
 }
 
-a img {
-  width: 180px;
+.after-nav {
   height: 40px;
-}
-
-.nav2>li>a{
   line-height: 40px;
+  padding: 0 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.pl-10 li {
+  padding-left: 10px;
 }
 
-ul li a {
+.right-nav {
+  float: right;
+}
+
+.right-nav ul {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.right-nav ul li {
+  display: inline-block;
+}
+
+.btn-primary {
+  color: #0069ff !important;
+  background-color: transparent;
+  border-color: #0069ff;
+  border-radius: 10px;
+  font-weight:bold;
+}
+
+#btn-blue:hover {
+  color: white !important;
+  background-color: #0069ff;
+
+}
+
+nav
+.desaturated-darkblue > li a,
+.desaturated-darkblue > a {
+  color: #5b6987 !important;
+}
+
+.pad-nav  {
+  padding: 10px 30px;
+}
+
+.label-new {
+  color: #031b4e;
+  background-color: #00D7D2;
+}
+
+.very-darkblue {
+  color: #031b4e;
+}
+
+.very-darkblue li a {
   color: #031b4e !important;
 }
 
-.sign_up {
-  color: #0069ff !important;
-  border: 1px solid #0069ff;
-  border-radius: 5px;
+.bg_very-darkblue {
+  background-color: #031b4e;
 }
 
-.welcome {
-  height: 800px;
-}
+.transf-blue li a:hover,
+.transf-blue a:hover {
 
-.bg_blue {
-  background-color: #0049ff;
+  color: #0049ff !important;
 }
 
 .blue {
- color: #0049ff;
+ color: #0049ff !important;
 }
 
-.h-700 {
-height: 800px;
-}
-
-.row.h-700 {
-margin-top: 122px;
+.bold {
+  font-weight: bold;
 }
 
 .font62 {
   font-size: 62px;
+}
+
+.font25 {
+  font-size: 25px;
+}
+
+.white {
+  color: white;
+}
+
+.home {
+  background-image: url("bg-home.jpg");
+  background-size: cover;
+  margin-top: 115px;
+}
+
+  section,
+  footer {
+    padding: 50px 0;
+  }
+
+.form-card {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* .relative {
+  position: relative;
+  height: 420px;
+}
+
+.relative > .center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.form-card h2 {
+  color: #031b4e;
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
-.white {
+.btn-green {
   color: white;
+  background-color: #15CD72 !important;
 }
 
-form {
-  background-color: white;
-}
-
-input {
-  font-size: 20px;
-  width: 80%;
-  margin-bottom: 15px;
-}
-
-.green_btn {
-  background-color: rgba(21, 204, 114, 1);
-}
-
-.white_btn {
-  background-color: white;
-}
-
-.white {
+.btn-green:hover {
   color: white;
+  background-color: #11a259 !important;
 }
 
-.btn {
-  padding: 10px;
-  width: 80%;
-  font-size: 20px;
-  border-radius: 5px;
-  margin-bottom: 15px;
+.bg_grey {
+  background-color: #f3f5f9;
 }
-
-.border_grey {
-  border: 1px solid grey;
+.grey2 {
+  color: #b3b3b3;
 }
 
 .p-20 {
   padding: 20px;
 }
 
-.p-50 {
-  padding: 50px;
+.mt-30 {
+  margin-top: 30px;
 }
 
-.pt-200 {
-  padding-top: 200px;
+.mt-40 {
+  margin-top: 40px;
 }
 
-.pb-200 {
-  padding-bottom: 200px;
+.mb-40 {
+  margin-bottom: 40px;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.bg_world {
+ background: #031b4e url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+ background-position: 50%;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
-.pb-100 {
-  padding-bottom: 100px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
- .google {
-  float: left;
- }
-
-.bg_grey {
-  background-color: #f3f5f9;
-}
-
-.f-20 {
-  font-size: 20px;
-}
-
-.f-60 {
-  font-size: 60px;
-}
-
-.darkblue {
-  color: #031b4e;
-}
-
-.bold {
-  font-size: bold;
-}
-
-.pt-50 {
-  padding-top: 50px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
-}
-
-
-.screenshot {
-  width: 50%;
-}
-
-.bg_blue-2 {
-  background-color: #031b4e;
+.bg_world H1 {
+  color: white;
 }
 
 .acqua {
   color: #00d7d2;
 }
 
-.grey_line {
-  border-bottom: 1px solid grey;
+.bg-2 {
+  background-image: url("bg-home.jpg");
+  background-size: cover;
+}
+
+table > tbody > tr:first-child td {
+  border-top: 0;
+}
+
+.social > li i:hover,
+.list-link a:hover {
+  color: white;
+}
+
+.list-link a {
+  display: block;
 }
 
 @media all and (max-width: 768px){
 
+.navbar {
+  height: auto;
+}
+
+.home {
+  margin-top: 0;
+}
+
 .screenshot,
 .rockerbox {
-  width: 100%;
+  width: 80%;
   }
+
+.list-link a,
+.list-link h5 {
+font-size: 20px
+}
 
 }
 
-@media all and (min-width: 992px max-width: 1200px){
+@media all and (min-width: 992px){
 
-  .screenshot,
-  .rockerbox {
-    width: 50%;
-    }
+.screenshot,
+.rockerbox {
+  width: 60%;
+}
 
 }
